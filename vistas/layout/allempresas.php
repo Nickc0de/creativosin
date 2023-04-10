@@ -17,16 +17,17 @@
     <title>Página personal</title>
 </head>
 <body class="uk-background-muted">
-        <?php include('modules/navbar.php'); ?>
+        <?php include('vistas/modules/navbar.php'); ?>
     <section id="content-personal">
         <div class="uk-grid-collapse uk-child-width-expand" uk-grid>
-            <?php include('modules/cat-aside.php');?>
-            <?php include('modules/perfil-ing.php');?>
-            <?php include('modules/right-aside.php');?>   
+            <?php include('vistas/modules/filter-aside.php');?>
+            <?php include('vistas/empresas-todos.php');?>
+            <?php include('vistas/modules/right-aside.php');?>   
         </div>
     </section>
     <section id="footer">
-        <?php include('modules/footer.php');?>
+        <?php include('vistas/layout/footer.php');?>
     </section>
+    <?php include('vistas/modules/register-modal.php');?>
 </body>
 </html>

@@ -14,19 +14,35 @@
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/js/uikit-icons.min.js"></script>
-    <title>Página personal</title>
+    <title>Creativos Inn</title>
 </head>
 <body class="uk-background-muted">
-        <?php include('modules/navbar.php'); ?>
-    <section id="content-personal">
-        <div class="uk-grid-collapse uk-child-width-expand" uk-grid>
-            <?php include('modules/cat-aside.php');?>
-            <?php include('modules/perfil-fin.php');?>
-            <?php include('modules/right-aside.php');?>   
-        </div>
+        <?php include('vistas/modules/navbar.php'); ?>
+        <?php include('vistas/layout/header.php'); ?>
+    <section class="publireportajes">
+        <?php include('vistas/modules/blog-publire.php');?>
+    </section>
+    <section id="widget1">
+        <?php include('vistas/modules/widgets.php');?>
+    </section>
+    <section class="entrevistas">
+        <?php include('vistas/modules/blog-entrevista.php');?>
+    </section>
+    <section class="multimedia">
+        <?php include('vistas/modules/blog-multimedia.php');?>
+    </section>
+    <section id="widget3">
+        <?php include('vistas/modules/widgets3.php');?>
+    </section>
+    <section id="widget2">
+        <?php include('vistas/modules/widgets2.php');?>
+    </section>
+    <section id="categorias">
+        <?php include('vistas/modules/categorias.php');?>
     </section>
     <section id="footer">
-        <?php include('modules/footer.php');?>
+        <?php include('vistas/layout/footer.php');?>
     </section>
+    <?php include('vistas/modules/register-modal.php');?>
 </body>
 </html>

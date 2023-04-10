@@ -6,7 +6,7 @@
         </div>
         <div class="uk-position-relative cinn-overlay-nav uk-margin-right uk-light">
             <div class="uk-width-expand uk-text-right">
-                <button class="uk-margin-small-top uk-form-small uk-button cinn-button-violet uk-border-rounded" type="button" >Enviar mensaje</button>
+                <a href="mailto:<?php echo $usuario['correo'];?>" target="_blank" class="uk-margin-small-top uk-form-small uk-button cinn-button-violet uk-border-rounded" >Enviar mensaje</a>
                 <div class="uk-inline">
                     <button class="uk-margin-small-top uk-form-small uk-button uk-button-default uk-border-rounded">Más</button>
                     <div uk-dropdown="mode: click; pos: bottom-center;">
@@ -25,14 +25,14 @@
         </div>
         <div class="uk-grid-small uk-child-width-expand uk-padding-small uk-margin-bottom" uk-grid>
             <div class="uk-width-1-6 uk-margin-left uk-position-z-index uk-text-center" id="prof-avatar">
-                <img class="uk-border-circle" src="images/avatar.jpg" width="120" height="120" alt="">
+                <img class="uk-border-circle" src="images/<?php echo $usuario['perfil']['foto'];?>" width="120" height="120" alt="">
             </div>
             <div>
-               <h2 class="uk-margin-remove ">Humberto Gil</h2>
-                <h3 class="uk-margin-remove  cinn-text-blue">Desarrollador Web, Desarrollador Full Stack</h3>
+               <h2 class="uk-margin-remove "><?php echo ucwords($usuario['nombre']);?></h2>
+                <h3 class="uk-margin-remove  cinn-text-blue"><?php echo ucfirst($usuario['perfil']['profesion']).', '.ucfirst($usuario['perfil']['titulos']);?></h3>
                 <p>
-                He realizado funciones de programación y maquetación de proyectos web. PSD – EPS, Diseño y desarrollo con estándares Web con REACT, LARAVEL, ANGULAR, PHP, CSS, HTML, JAVASCRIPT, JQUERY, AJAX…, Maquetación Web multinavegador (internet explorer, firefox, opera, chrome …) y multiplataforma (PC, Smartphone…), Gestores de contenido: WordPress, Joomla, Prestashop …, E-Comerce, Desarrollo web PHP.
-                </p>
+                <?php echo ucfirst($usuario['perfil']['perfil']);?>
+                </p> 
             </div>
         </div>
     </div>
@@ -56,29 +56,30 @@
     </div>
     <div class="uk-card uk-card-default uk-border-rounded uk-margin-medium-bottom uk-padding" id="persona-profile">
         <div class="">
-<!--                        <h2 class="cinn-text-blue">Perfil profesional</h2>-->
-<h2 class="cinn-text-blue">Experiencia</h2>
+            <h2 class="cinn-text-blue">Perfil profesional</h2>
             <p>
-                    Experiencia en PSD – EPS, Diseño y desarrollo con estándares
-Web CSS, HTML, Javascript, JQUERY, AJAX , Maquetación Web
-multi navegador (internet explorer, firefox, opera, chrome ...) y
-multiplataforma (PC, Smartphone...), Gestores de contenido:
-WordPress, Joomla, Prestashop, E-Commerce, Desarrollo web
-PHP, Conocimientos En plataformas digitales y de educación:
-Moodle, Plataformas de teleconferencia: zoom, teams, meet
+            <?php echo ucfirst($usuario['perfil']['experiencia']);?>
                     </p>
         </div>
+        <?php
+        if(count($usuario['perfil']['habilidades']) >0){
+        ?>
         <div class="">
-            <h2 class="cinn-text-blue">Servicios</h2>
+            <h2 class="cinn-text-blue">Habilidades</h2>
             <div>
                 <ul class="uk-list uk-list-circle uk-column-1-2">
-                    <li>Diseño Web</li>
-                    <li>Tiendas Virtuales</li>
-                    <li>Desarrollador Back-End</li>
-                    <li>Desarrollador Android Studio</li>
-                    <li>Desarrollador Multiplataforma en la Nube</li>
+                    <?php
+                        foreach($usuario['perfil']['habilidades'] as $skill){
+                            ?>
+                            <li><?php echo $skill;?></li>
+                    <?php
+                        }
+                    ?>
                 </ul>
             </div>
         </div>
+        <?php
+        }
+        ?>
     </div>
 </div>

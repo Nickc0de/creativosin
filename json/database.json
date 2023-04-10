@@ -1,0 +1,54 @@
+{
+    "categorias":[
+        {
+            "id": 1,
+            "nombre":"personas",
+            "categoria_id": null
+        },
+        {
+            "id": 2,
+            "nombre":"empresas",
+            "categoria_id": null
+        },
+        {
+            "id": 3,
+            "nombre":"abogados",
+            "categoria_id": 1
+        },
+        {
+            "id": 4,
+            "nombre":"administradores de empresas",
+            "categoria_id": 1
+        },
+        {
+            "id": 5,
+            "nombre":"especialistas en finanzas",
+            "categoria_id": 1
+        },
+        {
+            "id": 6,
+            "nombre":"ingenieros de sistemas",
+            "categoria_id": 1
+        },
+        {
+            "id": 7,
+            "nombre":"servicios",
+            "categoria_id": 1
+        },
+        {
+            "id": 8,
+            "nombre":"Desarrollo web",
+            "categoria_id": 2
+        },
+        {
+            "id": 9,
+            "nombre":"Clubes deportivos",
+            "categoria_id": 2
+        },
+        {
+            "id": 10,
+            "nombre":"educación",
+            "categoria_id": 2
+        }
+    ]
+}

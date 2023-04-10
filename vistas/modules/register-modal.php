@@ -2,21 +2,21 @@
     <div class="uk-modal-dialog uk-modal-body uk-border-rounded">
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <h2 class="uk-modal-title">Registro</h2>
-        <?php include('modules/reg-form.php');?>
+        <?php include('vistas/modules/reg-form.php');?>
     </div>
 </div>
 <div id="register-modal-2" uk-modal bg-close="false">
     <div class="uk-modal-dialog uk-modal-body uk-border-rounded">
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <h2 class="uk-modal-title">Registro</h2>
-        <?php include('modules/reg-form-2.php');?>
+        <?php include('vistas/modules/reg-form-2.php');?>
     </div>
 </div>
 <div id="verify-modal" uk-modal bg-close="false">
     <div class="uk-modal-dialog uk-modal-body uk-border-rounded">
         <button class="uk-modal-close-default" type="button" uk-close></button>
         <h2 class="uk-modal-title">Verifica tu cuenta</h2>
-        <?php include('modules/verify.php');?>
+        <?php include('vistas/modules/verify.php');?>
     </div>
 </div>
 <script type="text/javascript">

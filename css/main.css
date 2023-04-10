@@ -34,12 +34,12 @@ html{
 p, span{
    line-height: 1.4!important;
 }
-#cat_aside{
-   max-width: 200px; 
-}
-#right_aside{
-   max-width: 250px; 
-}
+#cat_aside{ max-width: 200px; }
+#filter_aside, #right_aside{max-width: 250px;}
+/* #cat_aside a, #filter_aside a{
+   padding-right:5px;
+} */
+
 #login-form{
    top:50px!important;
 }
@@ -53,8 +53,12 @@ p, span{
    min-height: 200px;
 }
 #prof-avatar{
-   margin-top: -80px;
+   margin-top: -80px!important;
 }
+.emp-list-avatar{
+   margin-top: -50px!important;
+}
+
 #prof-avatar .uk-icon-button{
    width: 120px;
    height: 120px;
@@ -88,6 +92,7 @@ p, span{
    background: var(--cinn_blue)!important;
 }
 .cinn-button-violet{background: var(--cinn_violet)!important;}
+.cinn-button-blue{background: var(--cinn_blue)!important;}
 .cinn-button-orange{
    color: #fff!important;
    background: var(--cinn_orange)!important;
@@ -99,11 +104,8 @@ p, span{
 }
 /* end buttons */
 /* utilidades  */
-#cat_aside{
-   padding-right:0;
-}
-#cat_aside .cinn-category-list >li > a{
-   color:var(--cinn_darkgray);
+#cat_aside ul .cinn-category-list >li > a{
+   color:var(--cinn_darkgray);   
    padding: 5px;
 }
 .cinn-divider-text{
@@ -137,6 +139,9 @@ p, span{
 .cinn-form input[type=checkbox]:checked{background-color:var(--cinn_violet)!important;}
 .cinn-form input{background-color:#fff!important;}
 
+.cinn-list-striped>:nth-of-type(odd) {
+   background: var(--cinn_lightgray)!important;
+}
 .cinn-main-searh{
    width: 80%!important;
 }

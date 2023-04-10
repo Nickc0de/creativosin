@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombre":"Bogotá D.C.",
+        "ubicacion_id":null,
+        "postal_code":"c025"
+    },
+    {
+        "id": 2,
+        "nombre":"Cundinamarca",
+        "ubicacion_id":null,
+        "postal_code":"c025"
+    },
+    {
+        "id": 3,
+        "nombre":"Girardot",
+        "ubicacion_id": 2,
+        "postal_code":"c025"
+    },
+    {
+        "id": 4,
+        "nombre":"Tolima",
+        "ubicacion_id": null,
+        "postal_code":"c025"
+    },
+    {
+        "id": 5,
+        "nombre":"Bogotá",
+        "ubicacion_id": 1,
+        "postal_code":"c025"
+    },
+    {
+        "id": 6,
+        "nombre":"Fusagasugá",
+        "ubicacion_id": 2,
+        "postal_code":"c025"
+    },
+    {
+        "id": 7,
+        "nombre":"Pasca",
+        "ubicacion_id": 2,
+        "postal_code":"c025"
+    },
+    {
+        "id": 8,
+        "nombre":"Arbeláez",
+        "ubicacion_id": 2,
+        "postal_code":"c025"
+    },
+    {
+        "id": 9,
+        "nombre":"Ibagué",
+        "ubicacion_id": 4,
+        "postal_code":"c025"
+    },
+    {
+        "id": 10,
+        "nombre":"Girardot",
+        "ubicacion_id": 2,
+        "postal_code":"c025"
+    }
+]

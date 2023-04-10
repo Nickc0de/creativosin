@@ -1,3 +1,12 @@
+<?php
+if (!empty($_GET['id']))
+    $id = $_GET['id'];
+    else	
+    die('<h1>Error 404 </h1><h3>¡Lo que buscas no existe o se ha movido de lugar!</h3>');
+    $empresa = loadEmpresa($id);
+    if(!$empresa)
+    die('<h1>Error 404 </h1><h3>¡Lo que buscas no existe o se ha movido de lugar!</h3>');
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -17,17 +26,17 @@
     <title>Página personal</title>
 </head>
 <body class="uk-background-muted">
-        <?php include('modules/navbar.php'); ?>
+        <?php include('vistas/modules/navbar.php'); ?>
     <section id="content-personal">
         <div class="uk-grid-collapse uk-child-width-expand" uk-grid>
-            <?php include('modules/cat-aside.php');?>
-            <?php include('modules/perfil-emp.php');?>
-            <?php include('modules/right-aside-emp.php');?>   
+            <?php include('vistas/modules/cat-aside.php');?>
+            <?php include('vistas/perfil-emp.php');?>
+            <?php include('vistas/modules/right-aside-emp.php');?>   
         </div>
     </section>
     <section id="footer">
-        <?php include('modules/footer.php');?>
+        <?php include('vistas/layout/footer.php');?>
     </section>
-    <?php include('modules/register-modal.php');?>
+    <?php include('vistas/modules/register-modal.php');?>
 </body>
 </html>

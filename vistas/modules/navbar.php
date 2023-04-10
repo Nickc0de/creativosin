@@ -2,10 +2,8 @@
         <div class="uk-width-expand">
             <div uk-navbar>
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo" href="#" aria-label="Back to Home">
-                        <a href="index.php" class="uk-logo">
+                    <a class="uk-navbar-item uk-logo uk-margin-left" href="./" aria-label="Back to Home">
                             <img src="images/logo_main.png"  alt="Creativos Inn" width="120" >
-                        </a>
                     </a>    
                 </div>
                     <div class="uk-navbar-item uk-width-expand ">
@@ -17,16 +15,16 @@
                 
                 <div class="nav-overlay uk-navbar-right  uk-padding-small uk-padding-remove-vertical">
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a class="uk-text-capitalize" href="#">Personas</a></li>
-                        <li><a class="uk-text-capitalize" href="#">Empresas</a></li>
-                        <li><a class="uk-text-capitalize" href="#">Nuestros Servicios</a></li>
+                        <li class="uk-active"><a class="uk-text-capitalize" href="?md=personas">Personas</a></li>
+                        <li><a class="uk-text-capitalize" href="?md=empresas">Empresas</a></li>
+                        <li><a class="uk-text-capitalize" href="#">Planes</a></li>
                         <li>
                             <a class="uk-text-capitalize " href="#"><span uk-icon="icon: user" class="cinn-text-orange"></span>Ingreso</a>
                             <div id="login-form" class="uk-card uk-card-body uk-card-default uk-box-shadow-large uk-width-xlarge uk-border-rounded" uk-drop="mode: click">
                                 <div class="uk-child-width-expand" uk-grid >
                                     <div class="uk-width-2-5">
                                     <h5 class="uk-text-default">¿No tienes una cuenta?</h5>
-                                    <span class=""><a href="" class="cinn-text-violet">Regístrate aquí</a></span>
+                                    <span class=""><a href="" class="cinn-text-violet" uk-toggle="target: #register-modal-1">Regístrate aquí</a></span>
                                     </div>
                                     <div>
                                         <form class="cinn-form">
@@ -42,9 +40,9 @@
                                                         <input type="checkbox" class="uk-checkbox uk-border-rounded uk-margin-small-right">Recordarme
                                                     </div>
                                                     <div>
-                                                        <span class="">
+                                                        <!-- <span class="">
                                                             <a href="" class="cinn-text-violet" uk-toggle="target: #register-modal-1">Regístrate aquí</a>
-                                                        </span>
+                                                        </span> -->
                                                     </div>
                                                 </div>
                                                 <a href="persona.php" class=" uk-margin-small-top uk-width-1-1 uk-button uk-button-default cinn-button-violet-inv uk-border-rounded" >Ingresar"</a>
@@ -54,6 +52,7 @@
                                 </div>
                             </div>                           
                         </li>
+                        <li><a href="" class="uk-text-capitalize" uk-toggle="target: #register-modal-1">Registro</a></li>
                     </ul>
                 </div>
             </div>

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "categorias":[4,5],
+        "profesion":"Administrador de empresas",
+        "telefono":"3356645",
+        "direccion":null,
+        "google_maps":null,
+        "web":null,
+        "titulos":"Administrador Financiero, Especialista en Gerencia Financiera, Magíster en Educación, Magíster en Gestión de la Calidad de la Educación Superior, y Candidato a Doctor en Gerencia Pública y Política Social.",
+        "perfil": "Ha perfeccionado un profundo sentido crítico y determinación para la toma de decisiones, además de una dedicada práctica en la dirección del Talento Humano con orientación a resultados y absoluto respeto por las personas.",
+        "experiencia":"Ha sido Fundador y Director de dos Grupos de Investigación, logrando su reconocimiento y categorización por Minciencias. Fue el Fundador y Director de la Revista Científica Tecnología y Productividad . Director de varios libros resultado de investigación. Ha sido Consejero Regional de Ciencia, Tecnología e Innovación. Se desempeñó como Secretario Técnico de las Mesas Sectoriales Nacionales de Agricultura y Acuicultura. Fue Vicepresidente de la Federación Colombiana de Ajedrez. Se ha desempeñado como Presidente Fundador de varias entidades sin ánimo de lucro. Fue Consejero Departamental de Planeación en representación del Sector Educativo y Cultural.",
+        "habilidades":["Consultor Academico y empresarial","Asesor financiero y de proyectos"],
+        "redes":null,
+        "foto":"cfcavvatar.jpg"
+    },
+    {
+        "id": 2,
+        "categorias":[6,7],
+        "profesion":"Desarrollador Web",
+        "telefono":"3356645",
+        "direccion":null,
+        "google_maps":null,
+        "web":null,
+        "titulos":"Desarrollador Full Stack",
+        "perfil": "He realizado funciones de programación y maquetación de proyectos web. PSD – EPS, Diseño y desarrollo con estándares Web con REACT, LARAVEL, ANGULAR, PHP, CSS, HTML, JAVASCRIPT, JQUERY, AJAX…, Maquetación Web multinavegador (internet explorer, firefox, opera, chrome …) y multiplataforma (PC, Smartphone…), Gestores de contenido: WordPress, Joomla, Prestashop …, E-Comerce, Desarrollo web PHP.",
+        "experiencia":"Experiencia en PSD – EPS, Diseño y desarrollo con estándares Web CSS, HTML, Javascript, JQUERY, AJAX , Maquetación Web multi navegador (internet explorer, firefox, opera, chrome ...) y multiplataforma (PC, Smartphone...), Gestores de contenido: WordPress, Joomla, Prestashop, E-Commerce, Desarrollo web PHP, Conocimientos En plataformas digitales y de educación: Moodle, Plataformas de teleconferencia: zoom, teams, meet",
+        "habilidades":["Diseño Web","Tiendas Virtuales","Desarrollador Back-End", "Desarrollador Android Studio","Desarrollador Multiplataforma en la Nube"],
+        "redes":null,
+        "foto":"avatar.jpg"
+    },
+    {
+        "id": 3,
+        "categorias":[4],
+        "profesion":"Administrador de empresas",
+        "telefono":"3356645",
+        "direccion":null,
+        "google_maps":null,
+        "web":null,
+        "titulos":"Especialista en gerencia de proyectos",
+        "perfil": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.",
+        "experiencia":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.",
+        "habilidades":null,
+        "redes":null,
+        "foto":"prof-1.jpg"
+    },
+    {
+        "id": 4,
+        "categorias":[3],
+        "profesion":"Abogado penal",
+        "telefono":"3356645",
+        "direccion":null,
+        "google_maps":null,
+        "web":null,
+        "titulos":null,
+        "perfil": null,
+        "experiencia":null,
+        "habilidades":null,
+        "redes":null,
+        "foto":null
+    }
+]

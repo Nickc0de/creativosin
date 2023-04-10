@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre":"carlos cometa",
+        "correo":"carlosfcometa@hotmail.com",
+        "celular":"3123356645",
+        "perfil_id": 1
+    },
+    {
+        "id": 2,
+        "nombre":"humberto gil",
+        "correo":"humbertogil701@gmail.com",
+        "celular":"3123356645",
+        "perfil_id": 2
+    },
+    {
+        "id": 3,
+        "nombre":"carlos castañeda",
+        "correo":"humbertogil701@gmail.com",
+        "celular":"3123356645",
+        "perfil_id": 3
+    },
+    {
+        "id": 4,
+        "nombre":"usuario periodo de prueba",
+        "correo":"usuario@gmail.com",
+        "celular":"3123356645",
+        "perfil_id": 4
+    }
+]
