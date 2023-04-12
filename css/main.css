@@ -135,6 +135,7 @@ p, span{
 }
 
 /* end utilidades  */
+.cinn-emp-list .uk-card-media-top {height: 100px;}
 .cinn-form input:focus:not([type=checkbox]), .cinn-form textarea:focus {border-color:var(--cinn_violet)!important;}
 .cinn-form input[type=checkbox]:checked{background-color:var(--cinn_violet)!important;}
 .cinn-form input{background-color:#fff!important;}
