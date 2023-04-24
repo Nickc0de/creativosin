@@ -9,7 +9,8 @@
                     <div class="uk-navbar-item uk-width-expand ">
                         <form class="uk-search uk-search-default cinn-main-searh cinn-form">
                             <a href="" class="uk-search-icon-flip cinn-search-icon " uk-search-icon></a>
-                            <input class="uk-search-input uk-border-rounded" type="search" placeholder="Búsqueda" aria-label="Search">
+                            <input id="s-bar" class="uk-search-input uk-border-rounded" type="search" placeholder="Búsqueda" aria-label="Search">
+                            <div id="r-panel" class="uk-position-absolute uk-width-1-1"></div>
                         </form>
                     </div>
                 
@@ -68,3 +69,4 @@
             </div>
         </div>
     </nav>
+    <script src="js/search.js"></script>
