@@ -18,7 +18,7 @@
                     <ul class="uk-navbar-nav">
                         <li class="uk-active"><a class="uk-text-capitalize" href="?md=personas">Personas</a></li>
                         <li><a class="uk-text-capitalize" href="?md=empresas">Empresas</a></li>
-                        <li><a class="uk-text-capitalize" href="#">Planes</a></li>
+                        <li><a class="uk-text-capitalize" href="?md=servicios">Planes</a></li>
                         
                             <?php
                             if($modulo == 'panel'){

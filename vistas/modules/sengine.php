@@ -30,9 +30,9 @@ $cats = sInCat($_GET['s'],$_GET['l']);
                 <?php
                 foreach($listado as $item){
                     foreach($item as $it){
-                        $cat = 'personas';
+                        $cat = 'persona';
                         if($it['nit']){
-                            $cat = 'empresas';
+                            $cat = 'empresa';
                         }
                 ?>
                     <li><a href="<?php echo '?md='.$cat.'&id='.$it['id'];?>"><?php echo $it['nombre'];?></a></li>

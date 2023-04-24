@@ -78,6 +78,7 @@ p, span{
    color:inherit!important;
    line-height: 0.9!important;
 }
+.cinn-bg-blue{background: var(--cinn_blue)!important;}
 .cinn-bg-lightblue{background: var(--cinn_lightblue)!important;}
 .cinn-bg-gray{background: var(--cinn_lightgray)!important;}
 .cinn-bg-darkgray{background: var(--cinn_darkgray);}

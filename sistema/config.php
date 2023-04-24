@@ -12,4 +12,5 @@ $conf['personas'] = array('archivo' => 'empresa-prof.php', 'layout' => 'allperso
 $conf['empresas'] = array('archivo' => 'empresa-prof.php', 'layout' => 'allempresas.php', 'title' => 'Creativos Inn - Encuentra lo que buscas');
 $conf['search'] = array('archivo' => 'sengine.php', 'layout' => 'sengine.php', 'title' => 'Creativos Inn - Encuentra lo que buscas');
 $conf['blog'] = array('archivo' => 'sengine.php', 'layout' => 'blog.php', 'title' => 'Creativos Inn - Entrevistas');
-$conf['panel'] = array('archivo' => 'sengine.php', 'layout' => 'panel.php', 'title' => 'Creativos Inn - Entrevistas');
+$conf['panel'] = array('archivo' => 'sengine.php', 'layout' => 'panel.php', 'title' => 'Creativos Inn - panel de usuario');
+$conf['servicios'] = array('archivo' => 'sengine.php', 'layout' => 'planes.php', 'title' => 'Creativos Inn - Nuestros planes');
