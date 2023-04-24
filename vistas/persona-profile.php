@@ -18,14 +18,18 @@
             </div>
             <div>
                <h2 class="uk-margin-remove ">Carlos Castañeda</h2>
-                <h3 class="uk-margin-remove  cinn-text-violet">Administrador de empresas</h3>
+                <h3 class="uk-margin-remove "><span class="uk-text-default">Ocupación:</span> <span class="cinn-text-violet">Administrador de empresas</span></h3>
                 <div class="uk-margin-top">
                     <form action="" class="cinn-form">
                         <label class="uk-form-label" for="profile-titles">Añada una descripción de sus títulos</label>
                         <div class="uk-margin">
                             <textarea id="profile-titles" class="uk-textarea uk-border-rounded" rows="5" aria-label="Textarea"></textarea>
                         </div>
-                        <label class="uk-form-label" for="profile-description">Añada una descripción de perfil profesional</label>
+                        <label class="uk-form-label" for="profile-description">Añada una descripción de su ocupación</label>
+                        <div class="uk-margin">
+                            <textarea id="profile-description" class="uk-textarea uk-border-rounded" rows="5" aria-label="Textarea"></textarea>
+                        </div>
+                        <label class="uk-form-label" for="profile-description">Añada una descripción de su experiencia</label>
                         <div class="uk-margin">
                             <textarea id="profile-description" class="uk-textarea uk-border-rounded" rows="5" aria-label="Textarea"></textarea>
                         </div>
@@ -38,16 +42,51 @@
                 <div>
                     <form action="" class="cinn-form">
                         <div>  
-                            <legend class="uk-legend">Formación académica</legend>
                             <div class="uk-margin">
-                                <input class=" uk-width-1-1 uk-input uk-border-rounded" type="text" placeholder="Ej: Adminsitrador de empresas">
-                                <div class="uk-width-expand uk-text-right">
-                                    <button class="uk-margin-small-top uk-form-small uk-button uk-button-default cinn-button-violet-inv uk-border-rounded">Añadir formación académica</button>
-                                    <div uk-form-custom>
-                                        <input type="file" aria-label="Custom controls">
-                                        <button class="uk-margin-small-top uk-form-small uk-button uk-button-primary cinn-button-violet uk-border-rounded" type="button" tabindex="-1">Cargar certificados</button>
-                                    </div>          
-                                </div>
+                                <label for="email">Correo electrónico</label>
+                                <input id="email" class=" uk-width-1-1 uk-input uk-border-rounded" type="text" value="carloscastaneda@hotmail.com">
+                            </div>
+                            <div class="uk-margin">
+                                <label for="tel">Teléfono</label>
+                                <input id="tel" class=" uk-width-1-1 uk-input uk-border-rounded" type="text" value="8673542">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <form action="" class="cinn-form">
+                            <div class="uk-margin">
+                            <label for="web">Página web</label>
+                                <input id="web" class=" uk-width-1-1 uk-input uk-border-rounded" type="text"value="carlosadministrador.com">
+                            </div>
+                            <div class="uk-margin">
+                                <label for="cel">Celular</label>
+                                <input id="cel" class=" uk-width-1-1 uk-input uk-border-rounded" type="text" value="3138722321">
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="uk-padding">
+            <div class="uk-grid-medium   uk-child-width-expand" uk-grid>
+                <div>
+                    <form action="" class="cinn-form">
+                        <div>  
+                            <legend class="uk-legend">Habilidades</legend>
+                            <div class="uk-margin">
+                                <input class=" uk-width-1-1 uk-input uk-border-rounded" type="text" placeholder="Ej: Excel avanzado">
+                            </div>
+                            <div class="uk-margin">
+                                <input class=" uk-width-1-1 uk-input uk-border-rounded" type="text" placeholder="Ej: Inglés">
+                            </div>
+                            <div class="uk-margin">
+                                <input class=" uk-width-1-1 uk-input uk-border-rounded" type="text" placeholder="Ej: Estadística y métricas">
+                            </div>
+                            <div class="uk-width-expand uk-text-right">
+                                <div uk-form-custom>
+                                    <input type="file" aria-label="Custom controls">
+                                    <button class="uk-margin-small-top uk-form-small uk-button uk-button-primary cinn-button-violet uk-border-rounded" type="button" tabindex="-1">Añadir más habilidades</button>
+                                </div> 
                             </div>
                         </div>
                         <div>  
@@ -69,21 +108,21 @@
                     <form action="" class="cinn-form">
                         <legend class="uk-legend">Redes sociales y presencia en línea</legend>
                         <div class="uk-margin">
-                            <div class="uk-inline uk-width-expand uk-margin-small-bottom">
+                            <div id="facebook" class="uk-inline uk-width-expand uk-margin-small-bottom">
                                 <span class="uk-form-icon" href="#" uk-icon="icon: facebook"></span>
                                 <input class="uk-input uk-border-rounded" type="text" aria-label="facebook">
                             </div>
-                            <div class="uk-inline uk-width-expand uk-margin-small-bottom">
+                            <div id="twitter" class="uk-inline uk-width-expand uk-margin-small-bottom">
                                 <span class="uk-form-icon" href="#" uk-icon="icon: twitter"></span>
-                                <input class="uk-input uk-border-rounded" type="text" aria-label="facebook">
+                                <input class="uk-input uk-border-rounded" type="text" aria-label="twitter">
                             </div>
-                            <div class="uk-inline uk-width-expand uk-margin-small-bottom">
+                            <div id="linkedin" class="uk-inline uk-width-expand uk-margin-small-bottom">
                                 <span class="uk-form-icon" href="#" uk-icon="icon: linkedin"></span>
-                                <input class="uk-input uk-border-rounded" type="text" aria-label="facebook">
+                                <input class="uk-input uk-border-rounded" type="text" aria-label="linkedin">
                             </div>
-                            <div class="uk-inline uk-width-expand uk-margin-small-bottom">
+                            <div id="instagram" class="uk-inline uk-width-expand uk-margin-small-bottom">
                                 <span class="uk-form-icon" href="#" uk-icon="icon: instagram"></span>
-                                <input class="uk-input uk-border-rounded" type="text" aria-label="facebook">
+                                <input class="uk-input uk-border-rounded" type="text" aria-label="instagram">
                             </div>
                         </div>
                     </form>

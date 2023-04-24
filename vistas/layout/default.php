@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main.css?=0" />
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/css/uikit.min.css" />
     <!-- google fonts  -->
@@ -28,9 +28,9 @@
     <section class="entrevistas">
         <?php include('vistas/modules/blog-entrevista.php');?>
     </section>
-    <section class="multimedia">
+    <!-- <section class="multimedia">
         <?php include('vistas/modules/blog-multimedia.php');?>
-    </section>
+    </section> -->
     <section id="widget3">
         <?php include('vistas/modules/widgets3.php');?>
     </section>

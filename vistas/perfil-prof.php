@@ -43,20 +43,23 @@
                     <h2 class="cinn-text-blue">Presencia en línea</h2>
                 </div>
                 <div class="uk-width-expand">
-                    <a href="" class="uk-icon-button cinn-button-gray cinn-button-social uk-margin-small-right" uk-icon="twitter"></a>
-                    <a href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="facebook"></a>
-                    <a href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="linkedin"></a>
-                    <a href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="instagram"></a>
-                    <a href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="whatsapp"></a>
-                    <a href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="github"></a>
-                    <a href="" class="uk-icon-button cinn-button-gray cinn-button-social" uk-icon="youtube"></a>
+                    <a id="twitter" href="" class="uk-icon-button cinn-button-gray cinn-button-social uk-margin-small-right" uk-icon="twitter"></a>
+                    <a id="facebook" href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="facebook"></a>
+                    <a id="linkedin" href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="linkedin"></a>
+                    <a id="instagram" href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="instagram"></a>
+                    <a id="whatsapp" href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="whatsapp"></a>
+                    <!-- <a id="github" href="" class="uk-icon-button cinn-button-gray cinn-button-social  uk-margin-small-right" uk-icon="github"></a> -->
+                    <a id="youtube" href="" class="uk-icon-button cinn-button-gray cinn-button-social" uk-icon="youtube"></a>
+                </div>
+                <div class="uk-width-auto">
+                    <h2 class="cinn-text-blue">Página web: <a href="" class="uk-margin-small-right" target="_blank"><?php echo $usuario['perfil']['web'];?></a></h2>
                 </div>
             </div>
         </div>
     </div>
     <div class="uk-card uk-card-default uk-border-rounded uk-margin-medium-bottom uk-padding" id="persona-profile">
         <div class="">
-            <h2 class="cinn-text-blue">Perfil profesional</h2>
+            <h2 class="cinn-text-blue">Experiencia</h2>
             <p>
             <?php echo ucfirst($usuario['perfil']['experiencia']);?>
                     </p>

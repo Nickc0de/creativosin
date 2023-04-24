@@ -3,7 +3,7 @@
     <h3 class="uk-margin-remove-top">Encuentra profesionales y personas especializadas en diferentes oficios y tareas.</h3>
     <ul class="uk-list cinn-list-striped">
         <?php
-        foreach(PERSONAS as $persona){
+        foreach($lista_personas as $persona){
         ?>
         <li class="uk-margin-remove">
             <div class="uk-padding-small uk-child-width-expand" uk-grid>

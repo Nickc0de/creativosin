@@ -66,7 +66,13 @@ p, span{
 #slide_marcas>* {
    width: 50%;
 }
-
+/* social */
+#facebook{background: #1877F2!important;}
+#twitter{background-color: #1D9BF0!important;}
+#linkedin{background: #0073b1!important;}
+#instagram{background: var(--cinn_violet)!important;}
+#youtube{background: #c00!important;}
+#whatsapp{background: #00a884!important;}
 .cinn-badge-left{right:inherit!important;}
 .cinn-head-title *{
    color:inherit!important;

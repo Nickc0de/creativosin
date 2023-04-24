@@ -4,14 +4,15 @@
             <a href="" class="uk-text-large cinn-bg-lightblue">
                 <span class="uk-margin-small-right uk-icon" uk-icon="list"> </span>Categorías</a>
             <?php
-            $subcat = loadCats(1);
+            $modulo != 'personas' ? $index = 2 : $index = 1;
+            $subcat = loadCats($index);
             if(count($subcat) > 0){
             ?>
                 <ul class="uk-nav uk-nav-secondary uk-margin-left cinn-category-list">
                 <?php
                 foreach ($subcat as $scat) {
                 ?>
-                    <li><a href="" class="uk-text-meta"><?php echo  ucfirst($scat['nombre']); ?></a></li>
+                    <li><a href="<?php echo  '?md='.$modulo.'&cat='.$scat['id']; ?>" class="uk-text-meta"><?php echo  ucfirst($scat['nombre']); ?></a></li>
             <?php
                 }
             ?>

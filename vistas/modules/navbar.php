@@ -18,41 +18,51 @@
                         <li class="uk-active"><a class="uk-text-capitalize" href="?md=personas">Personas</a></li>
                         <li><a class="uk-text-capitalize" href="?md=empresas">Empresas</a></li>
                         <li><a class="uk-text-capitalize" href="#">Planes</a></li>
-                        <li>
-                            <a class="uk-text-capitalize " href="#"><span uk-icon="icon: user" class="cinn-text-orange"></span>Ingreso</a>
-                            <div id="login-form" class="uk-card uk-card-body uk-card-default uk-box-shadow-large uk-width-xlarge uk-border-rounded" uk-drop="mode: click">
-                                <div class="uk-child-width-expand" uk-grid >
-                                    <div class="uk-width-2-5">
-                                    <h5 class="uk-text-default">¿No tienes una cuenta?</h5>
-                                    <span class=""><a href="" class="cinn-text-violet" uk-toggle="target: #register-modal-1">Regístrate aquí</a></span>
-                                    </div>
-                                    <div>
-                                        <form class="cinn-form">
-                                            <fieldset class="uk-fieldset">
-                                                <div class="uk-margin">
-                                                    <input class=" uk-width-1-1 uk-input uk-border-rounded" type="email" placeholder="Correo electrónico">
-                                                </div>
-                                                <div class="uk-margin">
-                                                    <input class=" uk-width-1-1 uk-input uk-border-rounded" type="password" placeholder="Contraseña">
-                                                </div>
-                                                <div class="uk-grid uk-child-width-expand uk-margin">
-                                                    <div>
-                                                        <input type="checkbox" class="uk-checkbox uk-border-rounded uk-margin-small-right">Recordarme
+                        
+                            <?php
+                            if($modulo == 'panel'){
+                                ?>
+                                <li><span uk-icon="icon: user" class="cinn-text-orange"></span></li>
+                                <?php
+                            } else{
+                                ?>
+                               <li><a class="uk-text-capitalize " href="#"><span uk-icon="icon: user" class="cinn-text-orange"></span>Ingreso</a>
+                                <div id="login-form" class="uk-card uk-card-body uk-card-default uk-box-shadow-large uk-width-xlarge uk-border-rounded" uk-drop="mode: click">
+                                    <div class="uk-child-width-expand" uk-grid >
+                                        <div class="uk-width-2-5">
+                                        <h5 class="uk-text-default">¿No tienes una cuenta?</h5>
+                                        <span class=""><a href="" class="cinn-text-violet" uk-toggle="target: #register-modal-1">Regístrate aquí</a></span>
+                                        </div>
+                                        <div>
+                                            <form class="cinn-form">
+                                                <fieldset class="uk-fieldset">
+                                                    <div class="uk-margin">
+                                                        <input class=" uk-width-1-1 uk-input uk-border-rounded" type="email" placeholder="Correo electrónico">
                                                     </div>
-                                                    <div>
-                                                        <!-- <span class="">
-                                                            <a href="" class="cinn-text-violet" uk-toggle="target: #register-modal-1">Regístrate aquí</a>
-                                                        </span> -->
+                                                    <div class="uk-margin">
+                                                        <input class=" uk-width-1-1 uk-input uk-border-rounded" type="password" placeholder="Contraseña">
                                                     </div>
-                                                </div>
-                                                <a href="persona.php" class=" uk-margin-small-top uk-width-1-1 uk-button uk-button-default cinn-button-violet-inv uk-border-rounded" >Ingresar"</a>
-                                            </fieldset>
-                                        </form>
+                                                    <div class="uk-grid uk-child-width-expand uk-margin">
+                                                        <div>
+                                                            <input type="checkbox" class="uk-checkbox uk-border-rounded uk-margin-small-right">Recordarme
+                                                        </div>
+                                                        <div>
+                                                            <!-- <span class="">
+                                                                <a href="" class="cinn-text-violet" uk-toggle="target: #register-modal-1">Regístrate aquí</a>
+                                                            </span> -->
+                                                        </div>
+                                                    </div>
+                                                    <a href="?md=panel" class=" uk-margin-small-top uk-width-1-1 uk-button uk-button-default cinn-button-violet-inv uk-border-rounded" >Ingresar"</a>
+                                                </fieldset>
+                                            </form>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>                           
-                        </li>
-                        <li><a href="" class="uk-text-capitalize" uk-toggle="target: #register-modal-1">Registro</a></li>
+                                </div> 
+                                </li>
+                                <li><a href="" class="uk-text-capitalize" uk-toggle="target: #register-modal-1">Registro</a>
+                                <?php
+                            }
+                            ?>                          
                     </ul>
                 </div>
             </div>

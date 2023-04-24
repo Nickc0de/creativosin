@@ -9,9 +9,9 @@
                 <div class="uk-card-body uk-padding-small uk-position-relative">
                     <!-- <div class="uk-card-badge uk-label cinn-bg-orange uk-position-top-left cinn-badge-left">Entrevista</div> -->
                     <article class="uk-article">
-                        <h3 class="uk-card-title uk-margin-top uk-link-reset cinn-text-blue"><a href="">Entrevista a empresario</a></h3>
+                        <h3 class="uk-card-title uk-margin-top uk-link-reset cinn-text-blue"><a href="?md=blog">Entrevista a empresario</a></h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                        <a class="uk-button uk-button-default cinn-button-violet-inv" href="#">Leer más</a>
+                        <a class="uk-button uk-button-default cinn-button-violet-inv" href="?md=blog">Leer más</a>
                     </article>
                 </div>
             </div>
@@ -24,9 +24,9 @@
                 <div class="uk-card-body uk-padding-small uk-position-relative">
                     <!-- <div class="uk-card-badge uk-label cinn-bg-orange uk-position-top-left cinn-badge-left">Entrevista</div> -->
                     <article class="uk-article">
-                        <h3 class="uk-card-title uk-margin-top uk-link-reset cinn-text-blue"><a href="">La industria  del entretenimiento en...</a></h3>
+                        <h3 class="uk-card-title uk-margin-top uk-link-reset cinn-text-blue"><a href="?md=blog">La industria  del entretenimiento en...</a></h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                        <a class="uk-button uk-button-default cinn-button-violet-inv" href="#">Leer más</a>
+                        <a class="uk-button uk-button-default cinn-button-violet-inv" href="?md=blog">Leer más</a>
                     </article>
                 </div>
             </div>
@@ -39,9 +39,9 @@
                 <div class="uk-card-body uk-padding-small uk-position-relative">
                     <!-- <div class="uk-card-badge uk-label cinn-bg-orange uk-position-top-left cinn-badge-left">Entrevista</div> -->
                     <article class="uk-article">
-                        <h3 class="uk-card-title uk-margin-top uk-link-reset cinn-text-blue"><a href="">Un personaje notable</a></h3>
+                        <h3 class="uk-card-title uk-margin-top uk-link-reset cinn-text-blue"><a href="?md=blog">Un personaje notable</a></h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                        <a class="uk-button uk-button-default cinn-button-violet-inv" href="#">Leer más</a>
+                        <a class="uk-button uk-button-default cinn-button-violet-inv" href="?md=blog">Leer más</a>
                     </article>
                 </div>
             </div>
@@ -54,9 +54,9 @@
                 <div class="uk-card-body uk-padding-small uk-position-relative">
                     <!-- <div class="uk-card-badge uk-label cinn-bg-orange uk-position-top-left cinn-badge-left">Opinión</div> -->
                     <article class="uk-article">
-                        <h3 class="uk-card-title uk-margin-top uk-link-reset cinn-text-blue"><a href="">La inflación en Colombia</a></h3>
+                        <h3 class="uk-card-title uk-margin-top uk-link-reset cinn-text-blue"><a href="?md=blog">La inflación en Colombia</a></h3>
                         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                        <a class="uk-button uk-button-default cinn-button-violet-inv" href="#">Leer más</a>
+                        <a class="uk-button uk-button-default cinn-button-violet-inv" href="?md=blog">Leer más</a>
                     </article>
                 </div>
             </div>

@@ -17,6 +17,7 @@
     <title>Página personal</title>
 </head>
 <body class="uk-background-muted">
+    hello
         <?php include('modules/navbar.php'); ?>
     <section id="content-personal">
         <div class="uk-grid-collapse uk-child-width-expand" uk-grid>

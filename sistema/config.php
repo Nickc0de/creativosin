@@ -10,3 +10,6 @@ $conf['persona'] = array('archivo' => 'persona-prof.php', 'layout' => 'persona.p
 $conf['empresa'] = array('archivo' => 'empresa-prof.php', 'layout' => 'empresa.php', 'title' => 'Creativos Inn - perfil de la empresa');
 $conf['personas'] = array('archivo' => 'empresa-prof.php', 'layout' => 'allpersonas.php', 'title' => 'Creativos Inn - Encuentra lo que buscas');
 $conf['empresas'] = array('archivo' => 'empresa-prof.php', 'layout' => 'allempresas.php', 'title' => 'Creativos Inn - Encuentra lo que buscas');
+$conf['search'] = array('archivo' => 'sengine.php', 'layout' => 'sengine.php', 'title' => 'Creativos Inn - Encuentra lo que buscas');
+$conf['blog'] = array('archivo' => 'sengine.php', 'layout' => 'blog.php', 'title' => 'Creativos Inn - Entrevistas');
+$conf['panel'] = array('archivo' => 'sengine.php', 'layout' => 'panel.php', 'title' => 'Creativos Inn - Entrevistas');

@@ -4,7 +4,7 @@
         foreach (loadCats() as $cat) {
             ?>
             <li class="uk-active uk-bg-violet">
-                <a href="">
+                <a href="#">
                     <span class="uk-margin-small-right uk-icon" uk-icon="list"> </span>
                     <?php echo  ucfirst($cat['nombre']); ?>
                 </a>
@@ -16,7 +16,7 @@
                     <?php
                     foreach ($subcat as $scat) {
                     ?>
-                        <li><a href="" class="uk-text-meta"><?php echo  ucfirst($scat['nombre']); ?></a></li>
+                        <li><a href="<?php echo  '?md='.$cat['nombre'].'&cat='.$scat['id']; ?>" class="uk-text-meta"><?php echo  ucfirst($scat['nombre']); ?></a></li>
                 <?php
                     }
                 ?>

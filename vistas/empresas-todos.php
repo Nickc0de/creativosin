@@ -11,7 +11,7 @@
     </div>
     <div class="uk-grid-medium uk-child-width-1-4 uk-text-center uk-grid-match" uk-grid>
         <?php
-        foreach(EMPRESAS as $empresa){
+        foreach($lista_empresas as $empresa){
         ?>
         <div class=" uk-margin-medium-bottom cinn-emp-list">
             <div class="uk-card uk-card-default uk-border-rounded uk-overflow-hidden">
