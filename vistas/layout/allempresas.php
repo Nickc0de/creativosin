@@ -1,10 +1,16 @@
+<?php
+$lista_empresas = EMPRESAS;
+if(isset($_GET['cat']) && !empty($_GET['cat'])){
+$lista_empresas = sEngine($_GET['cat'],$modulo);
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css?0" />
+    <link rel="stylesheet" href="css/main.css" />
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.3/dist/css/uikit.min.css" />
     <!-- google fonts  -->
@@ -17,18 +23,17 @@
     <title>Página personal</title>
 </head>
 <body class="uk-background-muted">
-    hello
-        <?php include('modules/navbar.php'); ?>
+        <?php include('vistas/modules/navbar.php'); ?>
     <section id="content-personal">
         <div class="uk-grid-collapse uk-child-width-expand" uk-grid>
-            <?php include('modules/cat-aside.php');?>
-            <?php include('modules/perfil-prof.php');?>
-            <?php include('modules/right-aside.php');?>   
+            <?php include('vistas/modules/filter-aside.php');?>
+            <?php include('vistas/empresas-todos.php');?>
+            <?php include('vistas/modules/right-aside.php');?>   
         </div>
     </section>
     <section id="footer">
-        <?php include('modules/footer.php');?>
+        <?php include('vistas/layout/footer.php');?>
     </section>
-    <?php include('modules/register-modal.php');?>
+    <?php include('vistas/modules/register-modal.php');?>
 </body>
 </html>

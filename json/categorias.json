@@ -1,0 +1,86 @@
+[
+    {
+        "id":1,
+        "nombre":"personas",
+        "slug":"personas",
+        "categoria_id":null
+    },
+    {
+        "id":2,
+        "nombre":"empresas",
+        "slug":"empresas",
+        "categoria_id":null
+    },
+    {
+        "id":3,
+        "nombre":"abogados",
+        "slug":"abogados",
+        "categoria_id":1
+    },
+    {
+        "id":4,
+        "nombre":"administradores de empresas",
+        "slug":"administradores_de_empresas",
+        "categoria_id":1
+    },
+    {
+        "id":5,
+        "nombre":"especialistas en finanzas",
+        "slug":"especialistas_en_finanzas",
+        "categoria_id":1
+    },
+    {
+        "id":6,
+        "nombre":"ingenieros de sistemas",
+        "slug":"ingenieros_de_sistemas",
+        "categoria_id":1
+    },
+    {
+        "id":7,
+        "nombre":"servicios",
+        "slug":"servicios",
+        "categoria_id":1
+    },
+    {
+        "id":8,
+        "nombre":"Desarrollo web",
+        "slug":"Desarrollo_web",
+        "categoria_id":2
+    },
+    {
+        "id":9,
+        "nombre":"clubes deportivos",
+        "slug":"clubes_deportivos",
+        "categoria_id":2
+    },
+    {
+        "id":10,
+        "nombre":"educación",
+        "slug":"educacion",
+        "categoria_id":2
+    },
+    {
+        "id":11,
+        "nombre":"servicios empresariales",
+        "slug":"servicios_empresariales",
+        "categoria_id":2
+    },
+    {
+        "id":12,
+        "nombre":"salud",
+        "slug":"salud",
+        "categoria_id":2
+    },
+    {
+        "id":13,
+        "nombre":"publicidad y marketing",
+        "slug":"publicidad_y_marketing",
+        "categoria_id":2
+    },
+    {
+        "id":14,
+        "nombre":"restaurantes",
+        "slug":"restaurantes",
+        "categoria_id":2
+    }
+]
